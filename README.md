@@ -47,10 +47,10 @@ whois-lookup/
 ├── client/              # React frontend
 │   ├── public/
 │   ├── src/
-│   ├── .env.example
+│   ├── .env
 ├── server/              # Flask backend
 │   ├── app.py
-│   ├── .env.example
+│   ├── .env
 │   ├── requirements.txt
 ├── .gitignore
 ├── README.md
@@ -80,13 +80,21 @@ cd server
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env
+cp .env .env
 ```
 
 Edit `.env` and add your WhoisXML API key:
 ```env
 WHOIS_API_KEY=your_actual_api_key_here
 ```
+
+Or use this test key for evaluation:
+
+```env
+WHOIS_API_KEY=at_huzCphF4yAnCrxNCiwvObMN3OxBWS
+```
+
+> ⚠️ This key is for demonstration only and may be rate-limited.
 
 Start the backend server:
 ```bash
@@ -104,7 +112,7 @@ In a **new terminal window**:
 ```bash
 cd client
 npm install
-cp .env.example .env
+cp .env .env
 ```
 
 Edit `.env`:
