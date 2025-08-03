@@ -14,8 +14,6 @@ Retrieves domain registration and contact information from the WhoisXML API.
 - [Environment Variables](#environment-variables)
 - [Preview](#preview)
 - [Notes](#notes)
-- [License](#license)
-- [Submission](#submission)
 
 ---
 
@@ -44,11 +42,11 @@ Retrieves domain registration and contact information from the WhoisXML API.
 
 ```
 whois-lookup/
-├── client/              # React frontend
+├── client/
 │   ├── public/
 │   ├── src/
 │   ├── .env
-├── server/              # Flask backend
+├── server/
 │   ├── app.py
 │   ├── .env
 │   ├── requirements.txt
@@ -67,7 +65,7 @@ whois-lookup/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/whois-lookup.git
+git clone https://github.com/Kira-Saints/whois-lookup.git
 cd whois-lookup
 ```
 
@@ -133,12 +131,12 @@ npm start
 
 These should be set up locally and **not committed**.
 
-### `server/.env.example`
+### `server/.env`
 ```env
 WHOIS_API_KEY=your_api_key_here
 ```
 
-### `client/.env.example`
+### `client/.env`
 ```env
 REACT_APP_API_URL=http://localhost:5000
 ```
@@ -164,11 +162,7 @@ server/.env
 
 ## 🖼 Preview
 
-Place a screenshot in `client/public/whois-screenshot.png` and include it here:
-
-```md
-![App Screenshot](client/public/whois-screenshot.png)
-```
+![App Screenshot](./client/public/whois-screenshot.png)
 
 ---
 
@@ -180,20 +174,4 @@ Place a screenshot in `client/public/whois-screenshot.png` and include it here:
 
 ---
 
-## 📄 License
-
-MIT License — for educational use only.
-
----
-
-## 📬 Submission
-
-Submit this GitHub repository link:
-
-```
-https://github.com/your-username/whois-lookup
-```
-
----
-
-That's it! 🎉
+© 2025 Kira Saints. All rights reserved.
